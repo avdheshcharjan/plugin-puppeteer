@@ -24,7 +24,7 @@ cd eliza
 
 2. Install dependencies:
 ```bash
-pnpm install
+pnpm install --no-frozen-lockfile
 ```
 
 3. Build the plugin:
