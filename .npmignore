@@ -1,0 +1,8 @@
+src/
+tests/
+.turbo/
+tsconfig.json
+*.log
+.env
+coverage/
+.vscode/

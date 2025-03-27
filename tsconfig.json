@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "outDir": "dist",
+    "composite": true,
+    "paths": {
+      "@elizaos/core": ["../core/src"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
